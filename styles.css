@@ -1,0 +1,126 @@
+/* TIPOGRAFIAS */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #141414;
+        color: white; /* Cambiar el color del texto a blanco para que sea legible */
+    .fondo-verde { background-color: #3c755467}
+
+h1{
+    color: #141414; /* Mismo color que fondo, para que no se vea, pero impacteen SEO */
+    size-adjust: 10px;
+}
+
+
+h2 {
+    font-size: 3rem;
+    color: #141414;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #141414;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #141414;
+}
+
+h1,h2,h3,h4 {
+    text-align: center;
+}
+
+p {
+    color: #141414;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #094f41; /* Color de fondo del menú */
+    padding: 10px 0; /* Espacio alrededor del contenido */
+    font-family: 'Montserrat', sans-serif; /* Tipografía Montserrat */
+    display: flex; /* Usar flexbox para el diseño */
+    align-items: center; /* Alinear elementos verticalmente */
+}
+
+.logo {
+    width: 20%; /* Ancho del logo */
+    padding-left: 50px;
+    margin-right: 20px; /* Espacio a la derecha del logo */
+}
+
+nav ul {
+    list-style: none; /* Quitar viñetas de la lista */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 10px; /* Espaciado entre links */
+    flex-grow: 1; /* Permitir que la lista ocupe el espacio restante */
+    text-align: right; /* Alinear elementos a la derecha */
+}
+
+nav li {
+    display: inline-block; /* Mostrar elementos de la lista en línea */
+    margin-left: 20px; /* Espacio entre elementos */
+    margin-bottom: 20px;
+}
+
+nav li a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    padding: 10px 15px; /* Espacio alrededor del texto de los enlaces */
+}
+
+nav li a:hover { /* Efecto hover para los enlaces */
+    background-color: #007bff; /* Color de fondo al pasar el cursor */
+
+    .pagina-activa { 
+        font-weight: bold;
+        color: #ffffff;
+        list-style-type: none;}
+    .pagina-inactiva { 
+        color: #ffffff; 
+        list-style-type: none;}
+}
+
+
+/* FOOTER */
+
+footer ul{
+    list-style-type: none;}
+
+
+/* BOTONES */
+
+.boton {
+    background-color: #094f41;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 90%;
+    text-align: center;
+    border: none;}
+
+    /* IMAGENES */
+
+    .logo-web { 
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 2%;}
+
+
+    /* VIDEOS */
+    .video-grande {
+        width: 50%;
+        padding: auto;
+
+    }
+    .videos-chicos {
+        width: 25%;
+        padding: auto;
+    }

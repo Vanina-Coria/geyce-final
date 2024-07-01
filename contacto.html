@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Geyce</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>GEYCE</h1>
+        <nav>
+            <img src="images/logo geyce l blanco.png" alt="Logo GEYCE" class="logo">
+            <ul>
+                <li class="pagina-inactiva"><a href="index.html">INICIO</a></li>
+                <li class="pagina-inactiva"><a href="nosotros.html">NOSOTROS</a></li>
+                <li class="pagina-inactiva"><a href="servicios.html">SERVICIOS</a></li>     
+                <li class="pagina-inactiva"><a href="catalogos.html">CATALOGOS</a></li>
+                <li class="pagina-activa"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <h2>Contacto</h2>
+    </header>
+    <main>
+        <section>
+            <div>
+                <form action="form.php" method="post">
+                    <label for="nombre">Escribe tu nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Juan Pérez">
+                    
+                    <label for="mail">Escribe tu mail</label>
+                    <input type="email" name="mail" id="mail" placeholder="juan_perez@mail.com">
+
+                    <label for="telefono">Escribe tu teléfono (Opcional)</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="351 111 2233">
+
+                    <label for="comentarios">Escribe tu mensaje</label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escribe tu mensaje aquí"></textarea>
+                    
+                    <input class="boton" type="submit" value="ENVIAR">
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.661997200323!2d-64.21920402501604!3d-31.340706492595736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299673d48358d%3A0x214ebf879048061d!2sDe%20los%20Latinos%206469%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1717484099784!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam quaerat sapiente consectetur ad, repellendus sunt ipsum blanditiis minima consequatur quasi accusantium exercitationem maxime, accusamus repudiandae dolor, vero voluptatum tempora illo.</p>
+        </section>
+    </main>
+</body>
+</html>
